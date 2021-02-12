@@ -9,7 +9,7 @@ This notebook gets output data from [metro-big-data-unir](https://github.com/jua
 
 [*Metro de Madrid*](https://www.metromadrid.es/) is the name of the tube/subway service that operates in Madrid, Spain. This service has 302 stations on 13 lines plus a light rail system called *Metro Ligero*. This service is used, on average in 2020, more than 30 million times each month.
 
-<img alt="Metro Madrid Map" src="./img/metromadrid.png" style="width:800;margin-left:auto;margin-right:auto;"/>
+![metro madrid map](./img/metromadrid.png "Metro Madrid Map")
 
 ***
 [Back to top](#top)
