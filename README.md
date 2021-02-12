@@ -7,3 +7,27 @@ This notebook gets output data from [metro-big-data-unir](https://github.com/jua
 ## Conceptual Data Model
 The data we want to store is all messages that inform about any issue or complaint in a line or a station even if one message inform about an issue that affect two different lines. That the reason why the fact table is the inform fact, that can be a complaint or an issue. One tweet can inform about an issue that affect two lines (i.e.: a closed station and all lines that stops there). In other words, one tweet generates one or many "inform fact" records.
 ![fact-dimension diagram](./img/class_diagram.png "Fact-Dimension Diagram")
+
+
+
+## Data dictionary 
+
+### Dimension Tables
+
+* **Line**
+    * ```line_id```
+        * ```Long```
+        * Line identifier.
+    * ```line_name```
+        * ```String```
+        * Line name.
+    * ```
+* **Station**
+* **Class**
+* **User**
+* **Date**
+* **Tweet**
+
+### Fact Table
+
+* **Inform**
