@@ -9,6 +9,12 @@ This notebook gets output data from [metro-big-data-unir](https://github.com/jua
 
 [*Metro de Madrid*](https://www.metromadrid.es/) is the name of the tube/subway service that operates in Madrid, Spain. This service has 302 stations on 13 lines plus a light rail system called *Metro Ligero*. This service is used, on average in 2020, more than 30 million times each month.
 
+<object data="https://www.metromadrid.es/sites/default/files/documentos/Viaja%20en%20Metro/Planos/Planoesquematico.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://www.metromadrid.es/sites/default/files/documentos/Viaja%20en%20Metro/Planos/Planoesquematico.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://www.metromadrid.es/sites/default/files/documentos/Viaja%20en%20Metro/Planos/Planoesquematico.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 ***
 [Back to top](#top)
 # Conceptual Data Model <a class="anchor" id="conceptual-data-model"></a>
