@@ -5,7 +5,7 @@
 * [Data dictionary](#data-dict)
 ***
 
-This project is based on [this notebook](./Capstone&#32;Project.ipynb) that gets output data from [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project and create a database to analysis. This data is based on all mentions on Twitter to offcial account of Metro de Madrid service.
+This project is based on [this notebook](./Capstone&#32;Project.ipynb) that gets output data from [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project and create a model for a data lake. The used data is based on all mentions on Twitter to offcial account of Metro de Madrid service.
 
 [*Metro de Madrid*](https://www.metromadrid.es/) is the name of the tube/subway service that operates in Madrid, Spain. This service has 302 stations on 13 lines plus a light rail system called *Metro Ligero*. This service was used in 2019 more than 677 million times.
 
@@ -135,3 +135,11 @@ The data we want to store is all messages that inform about any issue or complai
     * ```class_id```
         * ```Long```
         * If this tweet is a reply, this field references the tweet_id that this tweet is replying.
+
+# Project Write Up <a class="anchor" id="project-write-up"></a>
+
+This project uses [Apache Spark](https://spark.apache.org/) to process large amount of date. This dataset is not quite large yet but it grows every day. In the future, other tube services from other cities can be integrated in the system and increase the number of tweets to process.
+
+When the record number increase by 100x, more executors need to be added. Also, in order to have a dashboard feeded by data and updated daily or hourly, [Apache Airflow](https://airflow.apache.org/) is needed to orchestrate MongoDB extraction, transformation and cleaning steps, etc.
+
+Now, the database is stored in parquet files. But when it is accessed by 100+ people, the data must be migrated to another system (Redshift, HDFS, etc.)
