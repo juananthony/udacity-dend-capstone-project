@@ -3,6 +3,7 @@
 ## Table of content
 * [Conceptual Data Model](#conceptual-data-model)
 * [Data dictionary](#data-dict)
+* [Project Write Up](#project-write-up)
 ***
 
 This project is [this notebook](./Capstone&#32;Project.ipynb) that gets output data from [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project and create a model for a data lake. The used data is based on all mentions on Twitter to offcial account of Metro de Madrid service.
@@ -135,7 +136,7 @@ The data we want to store is all messages that inform about any issue or complai
     * ```class_id```
         * ```Long```
         * If this tweet is a reply, this field references the tweet_id that this tweet is replying.
-
+***
 # Project Write Up <a class="anchor" id="project-write-up"></a>
 
 This project uses [Apache Spark](https://spark.apache.org/) to process large amount of date. This dataset is not quite large yet but it grows every day. In the future, other tube services from other cities can be integrated in the system and increase the number of tweets to process.
