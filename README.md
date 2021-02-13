@@ -5,11 +5,15 @@
 * [Data dictionary](#data-dict)
 ***
 
-This notebook gets output data from [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project and create a database to analysis.
+This project is based on t[his notebook](./Capstone\ Project.ipynb) that gets output data from [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project and create a database to analysis. This data is based on all mentions on Twitter to offcial account of Metro de Madrid service.
 
-[*Metro de Madrid*](https://www.metromadrid.es/) is the name of the tube/subway service that operates in Madrid, Spain. This service has 302 stations on 13 lines plus a light rail system called *Metro Ligero*. This service is used, on average in 2020, more than 30 million times each month.
+[*Metro de Madrid*](https://www.metromadrid.es/) is the name of the tube/subway service that operates in Madrid, Spain. This service has 302 stations on 13 lines plus a light rail system called *Metro Ligero*. This service was used in 2019 more than 677 million times.
 
 ![metro madrid map](./img/metromadrid.png "Metro Madrid Map")
+
+[metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project collects tweets from Twitter. Tweets which [@metro_madrid](https://twitter.com/metro_madrid) account is mentioned. Many messages in this social network used to be complaints about the service quality (broken mechanic stairs or air conditionar, ...), other tweets mentioned some issue in the service (huge delays in a line, ...). This project uses NLP techniques to detect those messages where an issue or complaint is mentioned to [@metro_madrid](https://twitter.com/metro_madrid) account and store all of them in a MongoDB database.
+
+This notebook uses a CSV export of data stored in MongoDB instance. All this messages are classfied previously by [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir).
 
 ***
 [Back to top](#top)
