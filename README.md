@@ -1,5 +1,7 @@
 # udacity-dend-capstone-project <a class="anchor" id="top"></a>
 
+>**Important**: ```mentions_20210210.csv``` needs to be extracted from ```mentions_20210210.7z``` file. This file can't be pushed to GitHub because it is greated than the 100Mb Github limit.
+
 ## Table of content
 * [Conceptual Data Model](#conceptual-data-model)
 * [Data dictionary](#data-dict)
