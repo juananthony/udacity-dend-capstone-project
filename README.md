@@ -5,7 +5,7 @@
 * [Data dictionary](#data-dict)
 ***
 
-This project is based on t[his notebook](./Capstone\ Project.ipynb) that gets output data from [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project and create a database to analysis. This data is based on all mentions on Twitter to offcial account of Metro de Madrid service.
+This project is based on [this notebook]("./Capstone\ Project.ipynb") that gets output data from [metro-big-data-unir](https://github.com/juananthony/metro-big-data-unir) project and create a database to analysis. This data is based on all mentions on Twitter to offcial account of Metro de Madrid service.
 
 [*Metro de Madrid*](https://www.metromadrid.es/) is the name of the tube/subway service that operates in Madrid, Spain. This service has 302 stations on 13 lines plus a light rail system called *Metro Ligero*. This service was used in 2019 more than 677 million times.
 
