@@ -144,7 +144,7 @@ The data we want to store is all messages that inform about any issue or complai
 [Back to top](#top)
 # Project Write Up <a class="anchor" id="project-write-up"></a>
 
-This project uses [Apache Spark](https://spark.apache.org/) to process large amount of date. This dataset is not quite large yet but it grows every day. In the future, other tube services from other cities can be integrated in the system and increase the number of tweets to process.
+This project uses [Apache Spark](https://spark.apache.org/) to process large amount of data. This dataset is not quite large yet but it grows every day. In the future, other tube services from other cities can be integrated in the system and increase the number of tweets to process.
 
 When the record number increase by 100x, more executors need to be added. Also, in order to have a dashboard feeded by data and updated daily or hourly, [Apache Airflow](https://airflow.apache.org/) is needed to orchestrate MongoDB extraction, transformation and cleaning steps, etc.
 
